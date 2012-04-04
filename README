@@ -1,0 +1,13 @@
+type Less interface {
+	Less(interface{}) bool
+}
+
+queue := hqueue.New()
+
+queue.Push(1)
+
+queue.Pop() interface{}
+
+queue.Peek() interface {}
+
+queue.Len() int
